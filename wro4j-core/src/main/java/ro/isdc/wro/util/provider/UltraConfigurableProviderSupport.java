@@ -1,13 +1,3 @@
-/*
- * (c) 2012 Copyright Detica Limited. ALL RIGHTS RESERVED. This document is copyright of Detica
- * Limited and / or its affiliated companies. Detica, the Detica logo and / or Detica products
- * referenced herein are trademarks of Detica Limited and/or its affiliated companies and may be
- * registered in certain jurisdictions. Other company names, marks, products, logos and symbols
- * referenced herein may be the trademarks or registered trademarks of their owners.
- *
- * Original author: Ed Slocombe (EJBSlocombe)
- * Created on: 24/07/12 - 10:05
- */
 
 package ro.isdc.wro.util.provider;
 
