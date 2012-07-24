@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>ro.isdc.wro4j</groupId>
 		<artifactId>wro4j-parent</artifactId>
-    	<version>1.4.7</version>
+		<version>1.4.8-ejbs-beta1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>wro4j-extensions</artifactId>
@@ -51,28 +51,28 @@
 		</dependency>
 		<dependency>
 			<groupId>org.mozilla</groupId>
-            <artifactId>rhino</artifactId>
+			<artifactId>rhino</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.github.lltyk</groupId>
 			<artifactId>dojo-shrinksafe</artifactId>
 			<version>1.7.2</version>
 		</dependency>
-    <dependency>
-      <groupId>org.jruby</groupId>
-      <artifactId>jruby-complete</artifactId>
-      <version>1.6.7.2</version>
-    </dependency>
-    <dependency>
-      <groupId>me.n4u.sass</groupId>
-      <artifactId>sass-gems</artifactId>
-      <version>3.1.16</version>
-    </dependency>
-    <dependency>
-      <groupId>nz.co.edmi</groupId>
-      <artifactId>bourbon-gem-jar</artifactId>
-      <version>2.1.0</version>
-    </dependency>
+		<dependency>
+			<groupId>org.jruby</groupId>
+			<artifactId>jruby-complete</artifactId>
+			<version>1.6.7.2</version>
+		</dependency>
+		<dependency>
+			<groupId>me.n4u.sass</groupId>
+			<artifactId>sass-gems</artifactId>
+			<version>3.1.16</version>
+		</dependency>
+		<dependency>
+			<groupId>nz.co.edmi</groupId>
+			<artifactId>bourbon-gem-jar</artifactId>
+			<version>2.1.0</version>
+		</dependency>
 		<dependency>
 			<groupId>org.codehaus.gmaven.runtime</groupId>
 			<artifactId>gmaven-runtime-1.7</artifactId>
