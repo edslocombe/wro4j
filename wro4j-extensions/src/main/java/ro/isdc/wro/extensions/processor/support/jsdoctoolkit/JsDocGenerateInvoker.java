@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ro.isdc.wro.WroRuntimeException;
 import ro.isdc.wro.extensions.processor.support.jsdoctoolkit.windgazer.JSDocGenerator;
+import ro.isdc.wro.extensions.processor.support.processorconfig.ConfigSupport;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,10 +27,10 @@ public class JsDocGenerateInvoker
 {
 	private final static Logger LOG = LoggerFactory.getLogger(JsDocGenerateInvoker.class);
 
-	private final JsDocToolkitConfig config;
+	private final ConfigSupport config;
 
 
-	public JsDocGenerateInvoker(JsDocToolkitConfig config)
+	public JsDocGenerateInvoker(ConfigSupport config)
 	{
 		this.config = config;
 	}
